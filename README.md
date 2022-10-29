@@ -1,4 +1,6 @@
-# OpenCore EFI - Designare Z390 (i9 9900k) + Radeon VII
+# OC EFI - Designare Z390 + Radeon VII
+
+[OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) EFI folder for Gygabite Designare Z390 motherboards with AMD Radeon VII GPUs.
 
 ### Full desktop configuration:
 
@@ -7,7 +9,7 @@
 - XFX Radeon VII Aktiv
 - Samsung 970 EVO Plus
 
-(wip)
+_WIP_
 
 ## What works
 
@@ -15,12 +17,12 @@
 - dGPU
 - Audio
 
-(wip)
+_WIP_
 
 ## What doesn't work
 
-(wip)
+_WIP_
 
 ## Notes
 
-(wip)
+_WIP_
