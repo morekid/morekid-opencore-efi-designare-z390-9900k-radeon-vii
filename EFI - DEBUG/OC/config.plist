@@ -284,6 +284,8 @@
 				<data>AgYIAAAEAADHAwAA</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AwQKAAAIAADHAwAA</data>
+				<key>shikigva</key>
+				<integer>80</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
