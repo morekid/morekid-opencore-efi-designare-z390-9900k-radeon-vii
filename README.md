@@ -18,6 +18,8 @@ _WIP_
 ## What works
 
 - iGPU
+  - DisplayPort output max: 4K@60Hz
+  - HDMI output max: 4K@30Hz
 - dGPU
 - Audio
 - WiFi/Bluetooth (w/ Fenvi)
