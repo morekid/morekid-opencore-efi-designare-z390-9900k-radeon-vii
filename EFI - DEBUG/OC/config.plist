@@ -984,6 +984,8 @@
 			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>AllowNvramReset</key>
+			<true/>
 		</dict>
 		<key>Serial</key>
 		<dict>
