@@ -31,6 +31,7 @@
 - [x] USB (Thanks to [seven-of-eleven](https://github.com/seven-of-eleven/designare-z390-opencore-efi) for the port map, using n.1 to keep power on the Fenvi card).
 - [x] Lifecycle (On, Off, Sleep).
 - [x] All iStuff (FaceTime, Messages, etc.).
+- [x] OpenCore boot UI (OpenCanopy) and startup chime 🔈.
 
 ### What doesn't work
 
