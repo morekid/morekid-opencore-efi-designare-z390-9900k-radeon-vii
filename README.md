@@ -4,6 +4,11 @@
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg) [![macOS-stable](https://img.shields.io/badge/macOS-12.6-brightgreen.svg)](https://www.apple.com/macos/monterey) [![macOS-stable](https://img.shields.io/badge/macOS-10.14-brightgreen.svg)](https://apps.apple.com/us/app/macos-mojave/id1398502828)
 
+## Contents
+
+`EFI - DEBUG` - Debug version of OC and all Kexts, all logging enabled / Slower boot + verbose boot.  
+`EFI - RELEASE` - Release version of OC and all Kexts, all logging disabled / Faster boot + no verbose.
+
 ### Full desktop configuration:
 
 | Component | Name | Notes |
