@@ -11,10 +11,13 @@
 
 ### Choose config.plist
 
-Each folder contains two config.plist versions. Depending on your setup you might want to choose between (1) using the iGPU for video output, or (2) use the Radeon VII for video output and use iGPU in [headless mode](https://www.tonymacx86.com/threads/guide-intel-uhd-graphics-630-coffee-lake-headless-mode-main-card.304000/):
+Both debug and release folders contains two config.plist versions. Depending on your setup you'll want to choose one of:
 
-1. Rename `config-igpu.plist` to `config.plist`.
-2. Rename `config-headless.plist` to `config.plist`.
+1. Use the iGPU for video output:  
+Go to EFI > OC > rename `config-igpu.plist` to `config.plist`.
+
+2. use the Radeon VII for video output and use iGPU in headless mode:  
+Go to EFI > OC > rename `config-headless.plist` to `config.plist`.
 
 ### Full desktop configuration:
 
