@@ -260,8 +260,8 @@
 				<data>mD4AAA==</data>
                 <key>igfxfw</key>
                 <data>AgAAAA==</data>
-				<key>enable-metal</key>
-				<data>AQ==</data>
+                <key>enable-metal</key>
+                <data>AQAAAA==</data>
                 <key>rps-control</key>
                 <data>AQAAAA==</data>
 				<key>shikigva</key>
@@ -1122,13 +1122,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02918700QXLNV91H</string>
+			<string>[CHANGE_ME]</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>b42e99a9541b</data>
+			<data>[CHANGE_ME]</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1136,9 +1136,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YNRZ2JV3Q</string>
+			<string>[CHANGE_ME]</string>
 			<key>SystemUUID</key>
-			<string>F74757AB-A2A3-4B25-B288-7B69586A6A77</string>
+			<string>[CHANGE_ME]</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

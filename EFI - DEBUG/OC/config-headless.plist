@@ -255,35 +255,19 @@
 </key>
 			<dict>
 				<key>AAPL,ig-platform-id	</key>
-				<data>BwCbPg==</data>
+				<data>AwCRPg==</data>
 				<key>device-id</key>
 				<data>mD4AAA==</data>
                 <key>igfxfw</key>
                 <data>AgAAAA==</data>
-				<key>enable-metal</key>
-				<data>AQ==</data>
+                <key>enable-metal</key>
+                <data>AQAAAA==</data>
                 <key>rps-control</key>
+                <data>AQAAAA==</data>
+                <key>force-online</key>
                 <data>AQAAAA==</data>
 				<key>shikigva</key>
 				<integer>80</integer>
-                <key>enable-hdmi20</key>
-                <data>AQAAAA==</data>
-				<key>framebuffer-patch-enable	</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-alldata</key>
-				<data>AQUJAAAEAADHAwAA</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AgYJAAAEAADHAwAA</data>
-				<key>framebuffer-con2-alldata</key>
-				<data>AwQJAAAIAADHAwAA</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1122,13 +1106,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02918700QXLNV91H</string>
+			<string>[CHANGE_ME]</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>b42e99a9541b</data>
+			<data>[CHANGE_ME]</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1136,9 +1120,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YNRZ2JV3Q</string>
+			<string>[CHANGE_ME]</string>
 			<key>SystemUUID</key>
-			<string>F74757AB-A2A3-4B25-B288-7B69586A6A77</string>
+			<string>[CHANGE_ME]</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

@@ -9,6 +9,13 @@
 `EFI - DEBUG` - Debug version of OC and all Kexts, all logging enabled / Slower boot + verbose boot.  
 `EFI - RELEASE` - Release version of OC and all Kexts, all logging disabled / Faster boot + no verbose.
 
+### Choose config.plist
+
+Each folder contains two config.plist versions. Depending on your setup you might want to choose between (1) using the iGPU for video output, or (2) use the Radeon VII for video output and use iGPU in [headless mode](https://www.tonymacx86.com/threads/guide-intel-uhd-graphics-630-coffee-lake-headless-mode-main-card.304000/):
+
+1. Rename `config-igpu.plist` to `config.plist`.
+2. Rename `config-headless.plist` to `config.plist`.
+
 ### Full desktop configuration:
 
 | Component | Name | Notes |
@@ -50,7 +57,7 @@
 ## Notes
 
 - BIOS configured as per [guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings).
-- You'll need to replace any occurrence of `[CHANGEME]` in `OC/config.plist` using your own PlatformInfo, [see guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo).
+- You'll need to replace any occurrence of `[CHANGE_ME]` in `OC/config.plist` using your own PlatformInfo, [see guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo).
 - Tested on both Mojave and Monterey, works over a full upgrade from one to the other.
 - To migrate from Clover to OpenCore it might be enough to replace your existing Clover EFI for this, just make sure to:
   - Set your own PlatformInfo (taken from the Clover EFI) to the new one (see above).
