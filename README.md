@@ -33,7 +33,7 @@
 - [x] Audio: Realtek ALC1220 (alcid layout 11).
 - [x] WiFi/Bluetooth (w/ Fenvi).
 - [x] Ethernet.
-- [x] USB (Thanks to [seven-of-eleven](https://github.com/seven-of-eleven/designare-z390-opencore-efi) for the port map, using n.1 to keep power on the Fenvi card).
+- [x] USB (Thanks to [seven-of-eleven](https://github.com/seven-of-eleven/designare-z390-opencore-efi) for the port map, using n.1 to power the Fenvi card).
 - [x] Lifecycle (On, Off, Sleep).
 - [x] All iStuff (FaceTime, Messages, etc.).
 - [x] OpenCore boot UI (OpenCanopy) and startup chime 🔈.
@@ -50,8 +50,8 @@
 ## Notes
 
 - BIOS configured as per [guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings).
-- Once downloaded you'll need to replace any occurrence of `[CHANGEME]` in `OC/config.plist` using your own PlatformInfo, [see guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo).
-- Tested on both Mojave and Monterey, perfectly working over a full upgrade from one to the other.
-- To migrate from Clover to OpenCore replace your existing Clover EFI for this, just make sure to:
+- You'll need to replace any occurrence of `[CHANGEME]` in `OC/config.plist` using your own PlatformInfo, [see guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo).
+- Tested on both Mojave and Monterey, works over a full upgrade from one to the other.
+- To migrate from Clover to OpenCore it might be enough to replace your existing Clover EFI for this, just make sure to:
   - Set your own PlatformInfo (taken from the Clover EFI) to the new one (see above).
   - [Cleanup your system from Clover](https://dortania.github.io/OpenCore-Install-Guide/clover-conversion/#cleaning-the-clover-junk-in-macos).
