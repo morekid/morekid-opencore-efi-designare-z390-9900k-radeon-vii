@@ -1035,7 +1035,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>v7+/AA==</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
 				<data>Ag==</data>
 			</dict>
@@ -1329,7 +1329,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
