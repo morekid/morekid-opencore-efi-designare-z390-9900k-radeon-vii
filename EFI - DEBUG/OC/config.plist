@@ -258,6 +258,8 @@
 				<data>BwCbPg==</data>
                 <key>igfxfw</key>
                 <data>AgAAAA==</data>
+				<key>enable-metal</key>
+				<data>AQ==</data>
                 <key>enable-hdmi20</key>
                 <data>AQAAAA==</data>
 				<key>framebuffer-patch-enable	</key>
