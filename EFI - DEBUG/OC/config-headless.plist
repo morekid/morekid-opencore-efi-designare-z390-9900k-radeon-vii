@@ -977,7 +977,7 @@
 			<key>Vault</key>
 			<string>Optional</string>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Serial</key>
 		<dict>
